@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		674D6C831C191EAF00E52DCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 674D6C821C191EAF00E52DCA /* main.m */; };
+		674D6C861C191EB000E52DCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 674D6C851C191EB000E52DCA /* AppDelegate.m */; };
+		674D6C891C191EB000E52DCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 674D6C881C191EB000E52DCA /* ViewController.m */; };
+		674D6C8C1C191EB000E52DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 674D6C8A1C191EB000E52DCA /* Main.storyboard */; };
+		674D6C8E1C191EB000E52DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 674D6C8D1C191EB000E52DCA /* Assets.xcassets */; };
+		674D6C911C191EB000E52DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 674D6C8F1C191EB000E52DCA /* LaunchScreen.storyboard */; };
+		674D6C9C1C191EB100E52DCA /* _D_touch_Iphone6sTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 674D6C9B1C191EB100E52DCA /* _D_touch_Iphone6sTests.m */; };
+		674D6CA71C191EB100E52DCA /* _D_touch_Iphone6sUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 674D6CA61C191EB100E52DCA /* _D_touch_Iphone6sUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		674D6C981C191EB100E52DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 674D6C761C191EAF00E52DCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 674D6C7D1C191EAF00E52DCA;
+			remoteInfo = 3D_touch_Iphone6s;
+		};
+		674D6CA31C191EB100E52DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 674D6C761C191EAF00E52DCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 674D6C7D1C191EAF00E52DCA;
+			remoteInfo = 3D_touch_Iphone6s;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		674D6C7E1C191EAF00E52DCA /* 3D_touch_Iphone6s.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3D_touch_Iphone6s.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		674D6C821C191EAF00E52DCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		674D6C841C191EAF00E52DCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		674D6C851C191EB000E52DCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		674D6C871C191EB000E52DCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		674D6C881C191EB000E52DCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		674D6C8B1C191EB000E52DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		674D6C8D1C191EB000E52DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		674D6C901C191EB000E52DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		674D6C921C191EB000E52DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		674D6C971C191EB100E52DCA /* 3D_touch_Iphone6sTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3D_touch_Iphone6sTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		674D6C9B1C191EB100E52DCA /* _D_touch_Iphone6sTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_touch_Iphone6sTests.m; sourceTree = "<group>"; };
+		674D6C9D1C191EB100E52DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		674D6CA21C191EB100E52DCA /* 3D_touch_Iphone6sUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3D_touch_Iphone6sUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		674D6CA61C191EB100E52DCA /* _D_touch_Iphone6sUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_touch_Iphone6sUITests.m; sourceTree = "<group>"; };
+		674D6CA81C191EB100E52DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		674D6C7B1C191EAF00E52DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674D6C941C191EB100E52DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674D6C9F1C191EB100E52DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		674D6C751C191EAF00E52DCA = {
+			isa = PBXGroup;
+			children = (
+				674D6C801C191EAF00E52DCA /* 3D_touch_Iphone6s */,
+				674D6C9A1C191EB100E52DCA /* 3D_touch_Iphone6sTests */,
+				674D6CA51C191EB100E52DCA /* 3D_touch_Iphone6sUITests */,
+				674D6C7F1C191EAF00E52DCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		674D6C7F1C191EAF00E52DCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				674D6C7E1C191EAF00E52DCA /* 3D_touch_Iphone6s.app */,
+				674D6C971C191EB100E52DCA /* 3D_touch_Iphone6sTests.xctest */,
+				674D6CA21C191EB100E52DCA /* 3D_touch_Iphone6sUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		674D6C801C191EAF00E52DCA /* 3D_touch_Iphone6s */ = {
+			isa = PBXGroup;
+			children = (
+				674D6C841C191EAF00E52DCA /* AppDelegate.h */,
+				674D6C851C191EB000E52DCA /* AppDelegate.m */,
+				674D6C871C191EB000E52DCA /* ViewController.h */,
+				674D6C881C191EB000E52DCA /* ViewController.m */,
+				674D6C8A1C191EB000E52DCA /* Main.storyboard */,
+				674D6C8D1C191EB000E52DCA /* Assets.xcassets */,
+				674D6C8F1C191EB000E52DCA /* LaunchScreen.storyboard */,
+				674D6C921C191EB000E52DCA /* Info.plist */,
+				674D6C811C191EAF00E52DCA /* Supporting Files */,
+			);
+			path = 3D_touch_Iphone6s;
+			sourceTree = "<group>";
+		};
+		674D6C811C191EAF00E52DCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				674D6C821C191EAF00E52DCA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		674D6C9A1C191EB100E52DCA /* 3D_touch_Iphone6sTests */ = {
+			isa = PBXGroup;
+			children = (
+				674D6C9B1C191EB100E52DCA /* _D_touch_Iphone6sTests.m */,
+				674D6C9D1C191EB100E52DCA /* Info.plist */,
+			);
+			path = 3D_touch_Iphone6sTests;
+			sourceTree = "<group>";
+		};
+		674D6CA51C191EB100E52DCA /* 3D_touch_Iphone6sUITests */ = {
+			isa = PBXGroup;
+			children = (
+				674D6CA61C191EB100E52DCA /* _D_touch_Iphone6sUITests.m */,
+				674D6CA81C191EB100E52DCA /* Info.plist */,
+			);
+			path = 3D_touch_Iphone6sUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		674D6C7D1C191EAF00E52DCA /* 3D_touch_Iphone6s */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 674D6CAB1C191EB100E52DCA /* Build configuration list for PBXNativeTarget "3D_touch_Iphone6s" */;
+			buildPhases = (
+				674D6C7A1C191EAF00E52DCA /* Sources */,
+				674D6C7B1C191EAF00E52DCA /* Frameworks */,
+				674D6C7C1C191EAF00E52DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3D_touch_Iphone6s;
+			productName = 3D_touch_Iphone6s;
+			productReference = 674D6C7E1C191EAF00E52DCA /* 3D_touch_Iphone6s.app */;
+			productType = "com.apple.product-type.application";
+		};
+		674D6C961C191EB100E52DCA /* 3D_touch_Iphone6sTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 674D6CAE1C191EB100E52DCA /* Build configuration list for PBXNativeTarget "3D_touch_Iphone6sTests" */;
+			buildPhases = (
+				674D6C931C191EB100E52DCA /* Sources */,
+				674D6C941C191EB100E52DCA /* Frameworks */,
+				674D6C951C191EB100E52DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				674D6C991C191EB100E52DCA /* PBXTargetDependency */,
+			);
+			name = 3D_touch_Iphone6sTests;
+			productName = 3D_touch_Iphone6sTests;
+			productReference = 674D6C971C191EB100E52DCA /* 3D_touch_Iphone6sTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		674D6CA11C191EB100E52DCA /* 3D_touch_Iphone6sUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 674D6CB11C191EB100E52DCA /* Build configuration list for PBXNativeTarget "3D_touch_Iphone6sUITests" */;
+			buildPhases = (
+				674D6C9E1C191EB100E52DCA /* Sources */,
+				674D6C9F1C191EB100E52DCA /* Frameworks */,
+				674D6CA01C191EB100E52DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				674D6CA41C191EB100E52DCA /* PBXTargetDependency */,
+			);
+			name = 3D_touch_Iphone6sUITests;
+			productName = 3D_touch_Iphone6sUITests;
+			productReference = 674D6CA21C191EB100E52DCA /* 3D_touch_Iphone6sUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		674D6C761C191EAF00E52DCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = NavchinaMacBook;
+				TargetAttributes = {
+					674D6C7D1C191EAF00E52DCA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					674D6C961C191EB100E52DCA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 674D6C7D1C191EAF00E52DCA;
+					};
+					674D6CA11C191EB100E52DCA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 674D6C7D1C191EAF00E52DCA;
+					};
+				};
+			};
+			buildConfigurationList = 674D6C791C191EAF00E52DCA /* Build configuration list for PBXProject "3D_touch_Iphone6s" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 674D6C751C191EAF00E52DCA;
+			productRefGroup = 674D6C7F1C191EAF00E52DCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				674D6C7D1C191EAF00E52DCA /* 3D_touch_Iphone6s */,
+				674D6C961C191EB100E52DCA /* 3D_touch_Iphone6sTests */,
+				674D6CA11C191EB100E52DCA /* 3D_touch_Iphone6sUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		674D6C7C1C191EAF00E52DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674D6C911C191EB000E52DCA /* LaunchScreen.storyboard in Resources */,
+				674D6C8E1C191EB000E52DCA /* Assets.xcassets in Resources */,
+				674D6C8C1C191EB000E52DCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674D6C951C191EB100E52DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674D6CA01C191EB100E52DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		674D6C7A1C191EAF00E52DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674D6C891C191EB000E52DCA /* ViewController.m in Sources */,
+				674D6C861C191EB000E52DCA /* AppDelegate.m in Sources */,
+				674D6C831C191EAF00E52DCA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674D6C931C191EB100E52DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674D6C9C1C191EB100E52DCA /* _D_touch_Iphone6sTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674D6C9E1C191EB100E52DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674D6CA71C191EB100E52DCA /* _D_touch_Iphone6sUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		674D6C991C191EB100E52DCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 674D6C7D1C191EAF00E52DCA /* 3D_touch_Iphone6s */;
+			targetProxy = 674D6C981C191EB100E52DCA /* PBXContainerItemProxy */;
+		};
+		674D6CA41C191EB100E52DCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 674D6C7D1C191EAF00E52DCA /* 3D_touch_Iphone6s */;
+			targetProxy = 674D6CA31C191EB100E52DCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		674D6C8A1C191EB000E52DCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				674D6C8B1C191EB000E52DCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		674D6C8F1C191EB000E52DCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				674D6C901C191EB000E52DCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		674D6CA91C191EB100E52DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		674D6CAA1C191EB100E52DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		674D6CAC1C191EB100E52DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3D_touch_Iphone6s/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZHC.-D-touch-Iphone6s";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		674D6CAD1C191EB100E52DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3D_touch_Iphone6s/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZHC.-D-touch-Iphone6s";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		674D6CAF1C191EB100E52DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 3D_touch_Iphone6sTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZHC.-D-touch-Iphone6sTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3D_touch_Iphone6s.app/3D_touch_Iphone6s";
+			};
+			name = Debug;
+		};
+		674D6CB01C191EB100E52DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 3D_touch_Iphone6sTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZHC.-D-touch-Iphone6sTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3D_touch_Iphone6s.app/3D_touch_Iphone6s";
+			};
+			name = Release;
+		};
+		674D6CB21C191EB100E52DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 3D_touch_Iphone6sUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZHC.-D-touch-Iphone6sUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 3D_touch_Iphone6s;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		674D6CB31C191EB100E52DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 3D_touch_Iphone6sUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZHC.-D-touch-Iphone6sUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 3D_touch_Iphone6s;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		674D6C791C191EAF00E52DCA /* Build configuration list for PBXProject "3D_touch_Iphone6s" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674D6CA91C191EB100E52DCA /* Debug */,
+				674D6CAA1C191EB100E52DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		674D6CAB1C191EB100E52DCA /* Build configuration list for PBXNativeTarget "3D_touch_Iphone6s" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674D6CAC1C191EB100E52DCA /* Debug */,
+				674D6CAD1C191EB100E52DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		674D6CAE1C191EB100E52DCA /* Build configuration list for PBXNativeTarget "3D_touch_Iphone6sTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674D6CAF1C191EB100E52DCA /* Debug */,
+				674D6CB01C191EB100E52DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		674D6CB11C191EB100E52DCA /* Build configuration list for PBXNativeTarget "3D_touch_Iphone6sUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674D6CB21C191EB100E52DCA /* Debug */,
+				674D6CB31C191EB100E52DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 674D6C761C191EAF00E52DCA /* Project object */;
+}

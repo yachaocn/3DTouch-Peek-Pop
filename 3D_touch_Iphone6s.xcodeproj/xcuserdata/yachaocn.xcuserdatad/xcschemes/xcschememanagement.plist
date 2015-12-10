@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>3D_touch_Iphone6s.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>674D6C7D1C191EAF00E52DCA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>674D6C961C191EB100E52DCA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>674D6CA11C191EB100E52DCA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
