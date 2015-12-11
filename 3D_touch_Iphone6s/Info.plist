@@ -36,5 +36,35 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>UIApplicationShortcutItems</key>
+    <array>
+        <dict>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>Favorite</string>
+            <key>UIApplicationShortcutItemIconFile</key>
+            <string>open-favorites</string>
+            <key>UIApplicationShortcutItemType</key>
+            <string>com.mycompany.myapp.newmessage</string>
+            <key>UIApplicationShortcutItemUserInfo</key>
+            <dict>
+                <key>key1</key>
+                <string>value1</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>newMessage</string>
+            <key>UIApplicationShortcutItemIconType</key>
+            <string>UIApplicationShortcutIconTypeCompose</string>
+            <key>UIApplicationShortcutItemType</key>
+            <string>com.mycompany.myapp.compones</string>
+            <key>UIApplicationShortcutItemUserInfo</key>
+            <dict>
+                <key>key1</key>
+                <string>value2</string>
+            </dict>
+        </dict>
+    </array>
+
 </dict>
 </plist>
