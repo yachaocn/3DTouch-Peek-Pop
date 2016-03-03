@@ -15,6 +15,7 @@
 		674D6C911C191EB000E52DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 674D6C8F1C191EB000E52DCA /* LaunchScreen.storyboard */; };
 		674D6C9C1C191EB100E52DCA /* _D_touch_Iphone6sTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 674D6C9B1C191EB100E52DCA /* _D_touch_Iphone6sTests.m */; };
 		674D6CA71C191EB100E52DCA /* _D_touch_Iphone6sUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 674D6CA61C191EB100E52DCA /* _D_touch_Iphone6sUITests.m */; };
+		67D5107D1C8826BA008A08A3 /* MYPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D5107C1C8826BA008A08A3 /* MYPreviewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		674D6CA21C191EB100E52DCA /* 3D_touch_Iphone6sUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3D_touch_Iphone6sUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		674D6CA61C191EB100E52DCA /* _D_touch_Iphone6sUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_touch_Iphone6sUITests.m; sourceTree = "<group>"; };
 		674D6CA81C191EB100E52DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67D5107B1C8826BA008A08A3 /* MYPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPreviewController.h; sourceTree = "<group>"; };
+		67D5107C1C8826BA008A08A3 /* MYPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYPreviewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				674D6C851C191EB000E52DCA /* AppDelegate.m */,
 				674D6C871C191EB000E52DCA /* ViewController.h */,
 				674D6C881C191EB000E52DCA /* ViewController.m */,
+				67D5107B1C8826BA008A08A3 /* MYPreviewController.h */,
+				67D5107C1C8826BA008A08A3 /* MYPreviewController.m */,
 				674D6C8A1C191EB000E52DCA /* Main.storyboard */,
 				674D6C8D1C191EB000E52DCA /* Assets.xcassets */,
 				674D6C8F1C191EB000E52DCA /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D5107D1C8826BA008A08A3 /* MYPreviewController.m in Sources */,
 				674D6C891C191EB000E52DCA /* ViewController.m in Sources */,
 				674D6C861C191EB000E52DCA /* AppDelegate.m in Sources */,
 				674D6C831C191EAF00E52DCA /* main.m in Sources */,
@@ -496,6 +502,7 @@
 				674D6CAD1C191EB100E52DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		674D6CAE1C191EB100E52DCA /* Build configuration list for PBXNativeTarget "3D_touch_Iphone6sTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				674D6CB01C191EB100E52DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		674D6CB11C191EB100E52DCA /* Build configuration list for PBXNativeTarget "3D_touch_Iphone6sUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				674D6CB31C191EB100E52DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -35,7 +35,7 @@
     //2.创建一个系统类型字符串
     NSString *itemType = [NSString stringWithFormat:@"%ld",(long)UIApplicationShortcutIconTypeSearch];
     //3.创建一个item对象
-    UIApplicationShortcutItem *item = [[UIApplicationShortcutItem alloc]initWithType:itemType localizedTitle:@"搜索" localizedSubtitle:@"可以自定义搜索哦" icon:icon userInfo:nil];
+    UIApplicationShortcutItem *item = [[UIApplicationShortcutItem alloc]initWithType:itemType localizedTitle:@"搜索0" localizedSubtitle:@"可以自定义搜索哦" icon:icon userInfo:nil];
     UIApplication *application = [UIApplication sharedApplication];
     NSArray *array = application.shortcutItems;
     NSMutableArray *mutShortItems = [NSMutableArray arrayWithArray:array];

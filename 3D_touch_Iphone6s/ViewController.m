@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MYPreviewController.h"
 
 @interface ViewController ()<UIViewControllerPreviewingDelegate>
 
@@ -32,7 +33,7 @@
     //2.创建一个系统类型字符串
     NSString *itemType = [NSString stringWithFormat:@"%ld",(long)UIApplicationShortcutIconTypeSearch];
     //3.创建一个item对象
-    UIApplicationShortcutItem *item = [[UIApplicationShortcutItem alloc]initWithType:itemType localizedTitle:@"搜索" localizedSubtitle:@"可以自定义搜索哦" icon:icon userInfo:nil];
+    UIApplicationShortcutItem *item = [[UIApplicationShortcutItem alloc]initWithType:itemType localizedTitle:@"搜索1" localizedSubtitle:@"可以自定义搜索哦" icon:icon userInfo:nil];
     UIApplication *application = [UIApplication sharedApplication];
     NSArray *array = application.shortcutItems;
     NSMutableArray *mutShortItems = [NSMutableArray arrayWithArray:array];
@@ -44,6 +45,7 @@
     
     UIApplicationShortcutItem *item0 = [shortCutItems objectAtIndex:0];
     UIMutableApplicationShortcutItem *mutItem0 = [item0 mutableCopy];
+    NSLog(@"%@",mutItem0.localizedTitle);
     mutItem0.localizedTitle = @"动态修改的title";
     
     NSMutableArray *mutShortCutItems = [NSMutableArray arrayWithArray:shortCutItems];
@@ -52,28 +54,27 @@
     
  
 }
-#pragma mark - peek and pop
+#pragma mark - peek and pop delegate
 //1.注册要previewing 的控制器
 //2.实现UIViewControllerPreviewingDelegate代理方法
 - (nullable UIViewController *)previewingContext:(id <UIViewControllerPreviewing>)previewingContext viewControllerForLocation:(CGPoint)location NS_AVAILABLE_IOS(9_0)
 {
 //    peek
-    UIViewController *childVC = [[UIViewController alloc] init];
+    MYPreviewController *childVC = [[MYPreviewController alloc] init];
     childVC.view.backgroundColor = [UIColor yellowColor];
     childVC.preferredContentSize = CGSizeMake(0.0,300);
-    
     CGRect rect = CGRectMake(10, location.y - 10, self.view.frame.size.width - 20,20);
     previewingContext.sourceRect = rect;
     return childVC;
-    
-    
 }
+//至今没发现什么卵用
 - (void)previewingContext:(id <UIViewControllerPreviewing>)previewingContext commitViewController:(UIViewController *)viewControllerToCommit NS_AVAILABLE_IOS(9_0)
 {
-//    pop
+    //    pop
+    viewControllerToCommit.hidesBottomBarWhenPushed = YES;
     [self showViewController:viewControllerToCommit sender:self];
-    
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
